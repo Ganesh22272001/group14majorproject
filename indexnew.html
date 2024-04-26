@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Group No-14</title>
+    <link rel="stylesheet" href="stylenew.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/fc18ca1a34.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <h1>Weather Dashboard</h1>
+    
+  <nav id="home">
+      <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Application sector</a></li>
+          <li><a href="#contact as">Contact As</a></li>
+          <li><a href="https://bhuvan.nrsc.gov.in/home/newsletter.php" target="_blank">Newsletter</a></li>
+      </ul>
+  </nav>
+  <section id="main">
+      <div id="odc">
+         <a><img src="./images/odcnew.png  " alt="" class="im"></a>
+          <h3><a href="https://bhuvan-app3.nrsc.gov.in/data/download/index.php">Open Data Archive</a></h3>
+      </div>
+      <div id="cec">
+          <a href="https://nices.nrsc.gov.in/"><img src="./images/cecnew.png" alt="" class="im"></a>
+          <h3><a href="https://nices.nrsc.gov.in/">Climate & Environment</h3></a>
+      </div>
+  </section>
+  <section id="feature">
+      <h2 class="m">Maps & Application </h2>
+      <p class="m">Collaborative applications</p>
+      <div class="flood">
+          <a href="https://bhuvan-app1.nrsc.gov.in/fews/" target="_blank"><img src="./images/fld2.jpg" alt="flood" class="img"></a>
+          <h3>Flood Detection</h3>
+      </div>
+      </section>
+    <div class="container">
+      <div class="weather-input">
+        <h3>Enter a City Name</h3>
+        <input class="city-input" type="text" placeholder="E.g.,Mumbai,Thane,kalyan">
+        <button class="search-btn">Search</button>
+        <div class="separator"></div>
+        <button class="location-btn">Use Current Location</button>
+      </div>
+      <div class="weather-data">
+        <div class="current-weather">
+          <div class="details">
+            <h2>_______ ( ______ )</h2>
+            <h6>Temperature: __°C</h6>
+            <h6>Wind: __ M/S</h6>
+            <h6>Humidity: __%</h6>
+          </div>
+        </div>
+        <div class="days-forecast">
+          <h2>5-Day Forecast</h2>
+          <ul class="weather-cards">
+            <li class="card">
+              <h3>( ______ )</h3>
+              <h6>Temp: __C</h6>
+              <h6>Wind: __ M/S</h6>
+              <h6>Humidity: __%</h6>
+            </li>
+            <li class="card">
+              <h3>( ______ )</h3>
+              <h6>Temp: __C</h6>
+              <h6>Wind: __ M/S</h6>
+              <h6>Humidity: __%</h6>
+            </li>
+            <li class="card">
+              <h3>( ______ )</h3>
+              <h6>Temp: __C</h6>
+              <h6>Wind: __ M/S</h6>
+              <h6>Humidity: __%</h6>
+            </li>
+            <li class="card">
+              <h3>( ______ )</h3>
+              <h6>Temp: __C</h6>
+              <h6>Wind: __ M/S</h6>
+              <h6>Humidity: __%</h6>
+            </li>
+            <li class="card">
+              <h3>( ______ )</h3>
+              <h6>Temp: __C</h6>
+              <h6>Wind: __ M/S</h6>
+              <h6>Humidity: __%</h6>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <h1>Flood Alert System</h1>
+
+    <div id="Alert">
+
+<label for="locationInput"><b>Enter your location:</b></label>
+<input type="text" id="locationInput">
+<button onclick="checkFloodCondition()">Check Flood Condition</button>
+</div>
+    <section id="map">
+      <div id="satellight">
+         <h2>Satellight Map</h2>
+          <a href="https://zoom.earth/maps/satellite/" target="_blank"><img src="./images/satellight.jpg" alt="satellight" id="l"></a>
+      </div>
+      <div id="geoportal">
+          <h2>geoportal map</h2>
+         <img src="./images/mumbai-suburban-river-map.jpg" alt="map" id="g">
+      </div>
+  </section>
+    <footer id="contact as">
+      <div id="link">
+      <ul>
+          <h4>Useful Link</h4>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Hanbooks & Other</a></li>
+          <li><a href="#">Search</a></li>
+          <li><a href="#">Discussion</a></li>
+      </ul>
+  </div>    
+      <div id="Web">
+          <h4 >Web Information Manager</h4>
+          <p>Group no - 14<br>
+          Ganesh Baviskar
+          <br>
+          Gurudev Mahajan<br>
+          Swapnil Shinde<br>
+          Laukik Sonawane<br>
+          Xavier Institute of Enginnering<br>
+          Email:group14@gmail.com<br>
+          Phone:7738871471</p>
+      </div>
+  </footer>
+  </body>
+</html>
